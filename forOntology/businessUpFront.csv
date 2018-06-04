@@ -1,4 +1,4 @@
-"Table","Field","Description","Source","Brain","Colorectal","Head & Neck","Lung","Liver","Lymphoma","Myeloma","Pancreas","Prostate","Sarcoma","TableNote"
+"Table","Field","Description","Source","Brain","Colorectal","HeadNeck","Lung","Liver","Lymphoma","Myeloma","Pancreas","Prostate","Sarcoma","TableNote"
 "Clinical Stages","Date","Date of staging","Abstract",NA,"1","1","1","1","1","1","1","1","1",NA
 "Clinical Stages","Diagnosis","Primary cancer type","Abstract",NA,"1","1","1","1","1","1","1","1","1",NA
 "Clinical Stages","Staging System","Type of Staging system used (ie AJCC_02)","Abstract",NA,"1","1","1","1","1","1","1","1","1",NA

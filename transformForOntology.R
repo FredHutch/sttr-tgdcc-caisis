@@ -12,6 +12,6 @@ nark <- nark %>% fill(Table)
 nark$`Disease-->` <- NULL
 
 nark[] <- lapply(nark, gsub, pattern = "✓", replacement = 1, fixed = TRUE)
-nark <- rename(nark, "Myeloma" = "M.Myeloma", "Head & Neck" = "H&N")
+nark <- rename(nark, "Myeloma" = "M.Myeloma", "HeadNeck" = "H&N")
 
 write.csv(nark, file = "forOntology/businessUpFront.csv", row.names = F)
