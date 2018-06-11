@@ -4,14 +4,9 @@ library(tidyverse); library(readxl)
 list.files(pattern = ".xlsx")
 
 nark <- read_xlsx(list.files(pattern = ".xlsx"))
-nark <- nark[!is.na(nark$Field),]
-nark <- nark %>% fill(Table)
-nark <- nark %>% mutate(TableNote = ifelse(grepl("^\\*", Table) == T, gsub("\\**","",Table), NA))
-nark$Table <-  replace(nark$Table, grepl("^\\*", nark$Table)==T,NA)
-nark <- nark %>% fill(Table)
-nark$`Disease-->` <- NULL
+nark <- nark[!is.na(nark$Field),] #Field cannot be empty or the row will be removed.
 
 nark[] <- lapply(nark, gsub, pattern = "✓", replacement = 1, fixed = TRUE)
-nark <- rename(nark, "Myeloma" = "M.Myeloma", "HeadNeck" = "H&N")
+#nark <- rename(nark, "Myeloma" = "M.Myeloma", "HeadNeck" = "H&N")
 
 write.csv(nark, file = "forOntology/businessUpFront.csv", row.names = F)
