@@ -1,471 +1,471 @@
-"Table","Sub-Form","Form Notes","Field","Description","Source","Brain","Colorectal","HeadNeck","Lung","Liver","Lymphoma","Myeloma","Pancreas","Prostate","Sarcoma"
-"Clinical Stages",NA,NA,"Date","Date of staging","Abstract",NA,"1","1","1","1","1","1","1","1","1"
-"Clinical Stages",NA,NA,"Diagnosis","Primary cancer type","Abstract",NA,"1","1","1","1","1","1","1","1","1"
-"Clinical Stages",NA,NA,"Staging System","Type of Staging system used (ie AJCC_02)","Abstract",NA,"1","1","1","1","1","1","1","1","1"
-"Clinical Stages",NA,NA,"T Stage","TX, T0, Tis, T1-4","Abstract",NA,"1","1","1",NA,NA,NA,"1","1",NA
-"Clinical Stages",NA,NA,"N Stage","NX, N0, N1","Abstract",NA,"1","1","1",NA,NA,NA,"1","1","1"
-"Clinical Stages",NA,NA,"M Stage","MX, M0, M1","Abstract",NA,"1","1","1",NA,NA,NA,"1","1","1"
-"Clinical Stages",NA,NA,"S Stage","Stage at diagnosis (Stage I, II, III, or IV; Stages A1-4, B, C, D)","Abstract",NA,"1",NA,"1","1","1",NA,NA,NA,NA
-"Clinical Stages",NA,NA,"Stage","I, II, III, IVa, IVb","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Clinical Stages",NA,NA,"Evidence of Transformation/Transformed lymphoma at diagnosis?","Is there indication in path or MD note that transformed lymphoma is seen or suspected? Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA
-"Clinical Stages",NA,NA,"Physician","Provider stating clinical stage","Abstract",NA,"1","1","1","1","1",NA,"1","1",NA
-"Encounters",NA,NA,"Date","Date of appointment","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Encounters",NA,NA,"Type","Initial New Visit to institution and/or Internal Referral (""NV""), 1st appt on/after POD ""FR"", Chemo related visits ""MDTX""","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Encounters",NA,NA,"Physician","First and last name of Provider whom pt saw","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Encounters",NA,NA,"KPS","% rating to classify pt's functional impairment","Abstract","1","1","1",NA,"1",NA,NA,"1","1",NA
-"Encounters",NA,NA,"ECOG Score","# to rate the functional status of cancer patients (0-4)","Abstract",NA,"1","1","1","1","1","1","1","1","1"
-"Encounters",NA,NA,"Pain Score","Documented pain score at time of clinic visit, scored 0-10","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"Fatigue Score","Documented fatigue score at time of clinic visit, scored 0-10","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"IPI","International Prognostic Index, a score reported in clinic notes","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA
-"Encounters",NA,NA,"Child-Pugh Score","Quantitative assessment of patient’s liver function (drop downs: Class A, B, C)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Encounters",NA,NA,"MELD Score","Quantitative assessment of patient’s liver function (free text box for numeric value)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Encounters",NA,NA,"Height","Height","Abstract","1","1","1","1","1","1",NA,"1","1",NA
-"Encounters",NA,NA,"Weight","Weight","Abstract","1","1","1","1","1","1",NA,"1","1",NA
-"Encounters",NA,NA,"Systolic BP","Systolic Blood Pressure during clinic encounter (1st # in BP result 120/60, thus 120)","Abstract","1","1","1","1",NA,NA,NA,"1","1",NA
-"Encounters",NA,NA,"Diastolic BP","Diastolic Blood Pressure during clinic encounter (2nd # in BP result 120/60, thus 60)","Abstract","1","1","1","1",NA,NA,NA,"1","1",NA
-"Encounters",NA,NA,"Pulse","Pulse during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"Temp","Temperature during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"Resp","Respiratory rate during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"Institution","location of exam - either outside of UW system or UW (incl. SCCA)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters",NA,NA,"BSA","BSA","Autocalculated","1","1","1","1","1",NA,NA,"1","1",NA
-"Encounters",NA,NA,"BMI","BMI","Autocalculated","1","1","1","1","1",NA,NA,"1","1",NA
-"Encounters","Review of Symptoms",NA,"System","Location in body of symptom","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Encounters","Review of Symptoms",NA,"Symptom","Symptom patient reports (Aspiration, Weight Loss, Diet Normalcy, Difficulty Swallowing, Liquids by Mouth, Speech Performance)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Encounters","Review of Symptoms",NA,"Result","Additional findings reported","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Encounters","Rectal Exam",NA,"Result","Findings by physician preforming DRE/Rectal exam (Normal; Abnormal,  Malignant; Abnormal, Nonmalignant; Suspicious; Asymmetric; Induration; Nodule; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Width","Width, if available","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Length","Length, if available","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Pros Weight:","Collected when provided in the dictation for the DRE","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Side","location of findings (Right; Left;Midline; DVC; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Laterality","Anterior; Lateral; Medial; Posterior; Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Level","Apex; Mid; Base;SV; BN; Apical; MVB"" Imlmpwm","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Encounters","Rectal Exam",NA,"Extension","Additional findings (Definitely not; Probably not; Possibly; Probably; Definitely; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Status",NA,NA,"Date","Date of Status event","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Status",NA,NA,"Disease","Primary cancer type","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Status",NA,NA,"Status","Diagnosis Date, Alive, Metastatic Disease, Progression, Recurrence, Locoregional, etc etc","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Status",NA,NA,"Status Location","Specify location of metastatic disease (ie liver, lung)","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Status",NA,NA,"Metastatic Status","If status is metastatic (prostate only!)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Status",NA,NA,"Hormone Status","Hormone status of disease (prostate only!)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Status",NA,NA,"Physician","Name of the physician who reported the status.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Status",NA,NA,"Notes","Additional info, if needed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Operating Room Details",NA,"Surgery Date","Date of surgery/operation","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Operating Room Details",NA,"Institution","Where surgery took place","Abstract","1","1","1","1",NA,"1",NA,"1","1","1"
-"Procedures","Operating Room Details",NA,"Service","What department did the surgeon work for","Abstract","1","1","1","1",NA,NA,NA,"1","1","1"
-"Procedures","Operating Room Details",NA,"Case Surgeon","Name of Attending surgeon","Abstract","1","1","1","1","1",NA,NA,"1","1","1"
-"Procedures","Operating Room Details",NA,"Site Epicenter","Primary site/epicenter of disease","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"During Operation On","Date of surgery/operation","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Procedure",NA,"Date","Date of surgery/operation","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Procedure",NA,"Procedure","Type of surgery (Pancreaticoduodenectomy {Whipple}, Distal Pancreatectomy, Total Pancreatectomy)","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Procedure",NA,"Site","Specific organ and qualifying region where the tumor was located","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Procedure",NA,"Side","Specific side per path report","Abstract","1","1","1","1","1",NA,NA,NA,"1","1"
-"Procedures","Procedure",NA,"Institution","Where surgery took place","Abstract","1","1","1","1",NA,"1",NA,"1","1","1"
-"Procedures","Procedure",NA,"Service","What department did the surgeon work for","Abstract","1","1","1","1",NA,NA,NA,NA,NA,"1"
-"Procedures","Procedure",NA,"Type/Approach","Open, Laparoscopic or Robotic","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Procedures","Procedure",NA,"Segments","Total # segments involved (drop downs 1-8, 4 is split into 4A and 4B)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"Ablation Method","Method of ablation (drop downs: Radiofrequency, Microwave, IRE (allow free text))","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"Preoperative Biliary Stenting","Was there preop biliary stenting done? (Y/N/Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"*If Yes: Biliary Stenting Type","If Yes to Preop biliary stenting: Endoscopic (plastic), Endoscopic (metal), Percutaneous PTC (external), Percutaneous PTC (internal-external)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"Venous Resection/Reconstruction","Was there venous resection/reconstruction done? (Y/N/Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure",NA,"*If Yes: Type of Reconstruction","If Yes to venous resection/reconstruction: (Primary repair, Graft repair (saphenous, jugular, synthetic}","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Prostatectomy","Left NVB Status","Was it preserved or resected?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Prostatectomy","Left NVB Graft","Grafted?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Prostatectomy","Left NVB Donor","Donor?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Prostatectomy","Right NVB Status","Was it preserved or resected?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Prostatectomy","Right NVB Graft","Grafted?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Prostatectomy","Right NVB Donor","Donor?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Procedure","Neck Dissection","Side","What side: Contralateral, Ipsilateral","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Neck Dissection","Level","What level listed: Level 1-6","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Head & Neck Procedures","Neck Dissection Performed","Was neck dissection performed?","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Head & Neck Procedures","Neck Dissection Type","Type of neck dissection (Modified radical, Radical, Selective)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Head & Neck Procedures","Structures Removed","Which structures were removed (STCM; IJ vein; Accessory nerve [CN XI])","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Sarcoma","Limb Status","Limb salvage or amputation? (drop down)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
-"Procedures","Procedure","Sarcoma","Type of Reconstruction","What type of reconstruction was used? (drop downs= none, skin graft, rotation flap, free flap, allograft bone graft, prosthetic reconstruction) ***New Sarcoma Procedure Subform","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
-"Procedures","Procedure","Colorectal","Intent","Intent of operation","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","Complication","Complication","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","Tumor Obstruction","Tumor obstruction","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","Perforation","Perforation (clinical)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","Disease Extent","Surgeon's assessment of disease extent based on pre-operative colonoscopy / biopsy","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Table","Sub-Form","Form Notes","Field","Description","Source","VanillaSolid","VanillaLiquid","Brain","Colorectal","HeadNeck","Lung","Liver","Lymphoma","Myeloma","Pancreas","Prostate","Sarcoma"
+"Clinical Stages",NA,NA,"Date","Date of staging","Abstract",NA,NA,NA,"1","1","1","1","1","1","1","1","1"
+"Clinical Stages",NA,NA,"Diagnosis","Primary cancer type","Abstract",NA,NA,NA,"1","1","1","1","1","1","1","1","1"
+"Clinical Stages",NA,NA,"Staging System","Type of Staging system used (ie AJCC_02)","Abstract",NA,NA,NA,"1","1","1","1","1","1","1","1","1"
+"Clinical Stages",NA,NA,"T Stage","TX, T0, Tis, T1-4","Abstract",NA,NA,NA,"1","1","1",NA,NA,NA,"1","1",NA
+"Clinical Stages",NA,NA,"N Stage","NX, N0, N1","Abstract",NA,NA,NA,"1","1","1",NA,NA,NA,"1","1","1"
+"Clinical Stages",NA,NA,"M Stage","MX, M0, M1","Abstract",NA,NA,NA,"1","1","1",NA,NA,NA,"1","1","1"
+"Clinical Stages",NA,NA,"S Stage","Stage at diagnosis (Stage I, II, III, or IV; Stages A1-4, B, C, D)","Abstract",NA,NA,NA,"1",NA,"1","1","1",NA,NA,NA,NA
+"Clinical Stages",NA,NA,"Stage","I, II, III, IVa, IVb","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Clinical Stages",NA,NA,"Evidence of Transformation/Transformed lymphoma at diagnosis?","Is there indication in path or MD note that transformed lymphoma is seen or suspected? Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA
+"Clinical Stages",NA,NA,"Physician","Provider stating clinical stage","Abstract",NA,NA,NA,"1","1","1","1","1",NA,"1","1",NA
+"Encounters",NA,NA,"Date","Date of appointment","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Encounters",NA,NA,"Type","Initial New Visit to institution and/or Internal Referral (""NV""), 1st appt on/after POD ""FR"", Chemo related visits ""MDTX""","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Encounters",NA,NA,"Physician","First and last name of Provider whom pt saw","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Encounters",NA,NA,"KPS","% rating to classify pt's functional impairment","Abstract","1","1","1","1","1",NA,"1",NA,NA,"1","1",NA
+"Encounters",NA,NA,"ECOG Score","# to rate the functional status of cancer patients (0-4)","Abstract","1","1",NA,"1","1","1","1","1","1","1","1","1"
+"Encounters",NA,NA,"Pain Score","Documented pain score at time of clinic visit, scored 0-10","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"Fatigue Score","Documented fatigue score at time of clinic visit, scored 0-10","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"IPI","International Prognostic Index, a score reported in clinic notes","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA
+"Encounters",NA,NA,"Child-Pugh Score","Quantitative assessment of patient’s liver function (drop downs: Class A, B, C)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Encounters",NA,NA,"MELD Score","Quantitative assessment of patient’s liver function (free text box for numeric value)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Encounters",NA,NA,"Height","Height","Abstract",NA,NA,"1","1","1","1","1","1",NA,"1","1",NA
+"Encounters",NA,NA,"Weight","Weight","Abstract",NA,NA,"1","1","1","1","1","1",NA,"1","1",NA
+"Encounters",NA,NA,"Systolic BP","Systolic Blood Pressure during clinic encounter (1st # in BP result 120/60, thus 120)","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,"1","1",NA
+"Encounters",NA,NA,"Diastolic BP","Diastolic Blood Pressure during clinic encounter (2nd # in BP result 120/60, thus 60)","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,"1","1",NA
+"Encounters",NA,NA,"Pulse","Pulse during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"Temp","Temperature during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"Resp","Respiratory rate during clinic encounter","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"Institution","location of exam - either outside of UW system or UW (incl. SCCA)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters",NA,NA,"BSA","BSA","Autocalculated",NA,NA,"1","1","1","1","1",NA,NA,"1","1",NA
+"Encounters",NA,NA,"BMI","BMI","Autocalculated",NA,NA,"1","1","1","1","1",NA,NA,"1","1",NA
+"Encounters","Review of Symptoms",NA,"System","Location in body of symptom","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Encounters","Review of Symptoms",NA,"Symptom","Symptom patient reports (Aspiration, Weight Loss, Diet Normalcy, Difficulty Swallowing, Liquids by Mouth, Speech Performance)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Encounters","Review of Symptoms",NA,"Result","Additional findings reported","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Encounters","Rectal Exam",NA,"Result","Findings by physician preforming DRE/Rectal exam (Normal; Abnormal,  Malignant; Abnormal, Nonmalignant; Suspicious; Asymmetric; Induration; Nodule; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Width","Width, if available","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Length","Length, if available","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Pros Weight:","Collected when provided in the dictation for the DRE","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Side","location of findings (Right; Left;Midline; DVC; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Laterality","Anterior; Lateral; Medial; Posterior; Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Level","Apex; Mid; Base;SV; BN; Apical; MVB"" Imlmpwm","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Encounters","Rectal Exam",NA,"Extension","Additional findings (Definitely not; Probably not; Possibly; Probably; Definitely; Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Status",NA,NA,"Date","Date of Status event","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Status",NA,NA,"Disease","Primary cancer type","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Status",NA,NA,"Status","Diagnosis Date, Alive, Metastatic Disease, Progression, Recurrence, Locoregional, etc etc","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Status",NA,NA,"Status Location","Specify location of metastatic disease (ie liver, lung)","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Status",NA,NA,"Metastatic Status","If status is metastatic (prostate only!)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Status",NA,NA,"Hormone Status","Hormone status of disease (prostate only!)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Status",NA,NA,"Physician","Name of the physician who reported the status.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Status",NA,NA,"Notes","Additional info, if needed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Operating Room Details",NA,"Surgery Date","Date of surgery/operation","Abstract","1",NA,"1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Operating Room Details",NA,"Institution","Where surgery took place","Abstract","1",NA,"1","1","1","1",NA,"1",NA,"1","1","1"
+"Procedures","Operating Room Details",NA,"Service","What department did the surgeon work for","Abstract","1",NA,"1","1","1","1",NA,NA,NA,"1","1","1"
+"Procedures","Operating Room Details",NA,"Case Surgeon","Name of Attending surgeon","Abstract","1",NA,"1","1","1","1","1",NA,NA,"1","1","1"
+"Procedures","Operating Room Details",NA,"Site Epicenter","Primary site/epicenter of disease","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"During Operation On","Date of surgery/operation","Abstract","1",NA,"1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Procedure",NA,"Date","Date of surgery/operation","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Procedure",NA,"Procedure","Type of surgery (Pancreaticoduodenectomy {Whipple}, Distal Pancreatectomy, Total Pancreatectomy)","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Procedure",NA,"Site","Specific organ and qualifying region where the tumor was located","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Procedure",NA,"Side","Specific side per path report","Abstract","1","1","1","1","1","1","1",NA,NA,NA,"1","1"
+"Procedures","Procedure",NA,"Institution","Where surgery took place","Abstract",NA,NA,"1","1","1","1",NA,"1",NA,"1","1","1"
+"Procedures","Procedure",NA,"Service","What department did the surgeon work for","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,"1"
+"Procedures","Procedure",NA,"Type/Approach","Open, Laparoscopic or Robotic","Abstract",NA,NA,NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Procedures","Procedure",NA,"Segments","Total # segments involved (drop downs 1-8, 4 is split into 4A and 4B)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"Ablation Method","Method of ablation (drop downs: Radiofrequency, Microwave, IRE (allow free text))","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"Preoperative Biliary Stenting","Was there preop biliary stenting done? (Y/N/Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"*If Yes: Biliary Stenting Type","If Yes to Preop biliary stenting: Endoscopic (plastic), Endoscopic (metal), Percutaneous PTC (external), Percutaneous PTC (internal-external)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"Venous Resection/Reconstruction","Was there venous resection/reconstruction done? (Y/N/Unknown)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure",NA,"*If Yes: Type of Reconstruction","If Yes to venous resection/reconstruction: (Primary repair, Graft repair (saphenous, jugular, synthetic}","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Prostatectomy","Left NVB Status","Was it preserved or resected?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Prostatectomy","Left NVB Graft","Grafted?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Prostatectomy","Left NVB Donor","Donor?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Prostatectomy","Right NVB Status","Was it preserved or resected?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Prostatectomy","Right NVB Graft","Grafted?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Prostatectomy","Right NVB Donor","Donor?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Procedure","Neck Dissection","Side","What side: Contralateral, Ipsilateral","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Neck Dissection","Level","What level listed: Level 1-6","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Head & Neck Procedures","Neck Dissection Performed","Was neck dissection performed?","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Head & Neck Procedures","Neck Dissection Type","Type of neck dissection (Modified radical, Radical, Selective)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Head & Neck Procedures","Structures Removed","Which structures were removed (STCM; IJ vein; Accessory nerve [CN XI])","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Sarcoma","Limb Status","Limb salvage or amputation? (drop down)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Procedure","Sarcoma","Type of Reconstruction","What type of reconstruction was used? (drop downs= none, skin graft, rotation flap, free flap, allograft bone graft, prosthetic reconstruction) ***New Sarcoma Procedure Subform","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Procedure","Colorectal","Intent","Intent of operation","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","Complication","Complication","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","Tumor Obstruction","Tumor obstruction","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","Perforation","Perforation (clinical)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","Disease Extent","Surgeon's assessment of disease extent based on pre-operative colonoscopy / biopsy","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Path Type","Surgeon's assessment of pathology based on pre-operative colonoscopy / biopsy 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","Tumor Anal Verge","For rectal cases, distance from tumor to lower edge of anal verge in cm","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","Tumor Anal Verge","For rectal cases, distance from tumor to lower edge of anal verge in cm","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection","Synchronous resection 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Liver","Synchronous resection of liver 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Lung","Synchronous resection of lung 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Retroperitoneal Nodal","Synchronous resection of retroperitoneum 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Ovary","Synchronous resection of ovary 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Peritoneal","Synchronous resection of peritoneum 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Synchronous Resection Other","Synchronous resection of other site 
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Procedure","Colorectal","LA Mesorectal Excision Extent","Extent of mesorectal excision","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Procedure","Colorectal","LA Mesorectal Excision Extent","Extent of mesorectal excision","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
 "Procedures","Procedure","Colorectal","Tumor Location","Location of tumor (distance from Anus)
-","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology",NA,"From Operation On","Date of surgery/operation","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology",NA,"Source Procedure","From which surgery was this pathology specimen taken","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Path Report Date","Date path report signed out","Feed","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Path #","Specific # and letters given to specimen","Feed","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Specimen Type","Description of specimen (ie pancreatic mass)","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Site","Specific site per path report","Abstract","1","1","1","1","1",NA,"1","1","1","1"
-"Procedures","Pathology",NA,"Side","Specific side per path report","Abstract","1","1","1","1",NA,NA,"1",NA,NA,"1"
-"Procedures","Pathology",NA,"Result","Type of sarcoma diagnosed: Soft tissue sarcoma vs Bone sarcoma vs Benign tumor vs Other","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
-"Procedures","Pathology",NA,"Histology","Histology of the cancer per path report","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Secondary Histology","More description of path, if needed","Abstract","1","1","1","1","1","1",NA,"1",NA,"1"
-"Procedures","Pathology",NA,"Institution","Where pathology was reviewed","Feed","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Pathologist","Name of Pathologist reviewing specimen","Feed","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology",NA,"Notes","Additional text if needed","Feed/Abstract","1","1","1","1","1","1","1","1","1","1"
-"Procedures","Pathology","Pathology Stages","Disease","Pancreas Cancer","Abstract","1","1","1","1","1",NA,NA,"1","1","1"
-"Procedures","Pathology","Pathology Stages","Staging System","Type of Staging system used (AJCC_02)","Abstract",NA,"1","1","1","1",NA,NA,"1","1","1"
-"Procedures","Pathology","Pathology Stages","Site","Site of disease","Abstract",NA,"1",NA,"1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Pathology Stages","T","Tumor stage (yTX, T0, Tis, T1-4)","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Pathology Stages","N","Lymph node stage (NX, N0, N1)","Abstract",NA,"1","1","1","1",NA,NA,"1","1","1"
-"Procedures","Pathology","Pathology Stages","M","Mets stage (N/A, MX, M0, M1)","Abstract",NA,"1","1","1","1",NA,NA,"1","1","1"
-"Procedures","Pathology","Pathology Stages","Grade","Grade of tumor (GX cannot be assessed, GX not graded, G1-G4)","Abstract","1","1","1",NA,"1",NA,NA,"1",NA,NA
-"Procedures","Pathology","Pathology Findings","Finding","Free text to specify pathological findings","Abstract",NA,"1","1","1","1",NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Findings","Side","Side of body involved","Abstract",NA,"1","1","1","1",NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Findings","Site","Site of body involved","Abstract",NA,"1",NA,"1","1",NA,NA,"1",NA,NA
-"Procedures","Pathology","Pathology Findings","Histology","Histotology of the cancer based on Snomed codes","Abstract",NA,"1","1","1","1",NA,NA,"1",NA,"1"
-"Procedures","Pathology","Pathology Findings","Grade","Grade of tumor (GX cannot be assessed, GX not graded, G1-G4)","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Procedures","Pathology","Pathology Findings","Height","Height of tumor","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Findings","Width","Width of tumor","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Findings","Length","Length of tumor","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Tests","Date","Sign out date","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology","Pathology Tests","Test","Type of test (MSI; IHC for MLH1, MSH2, MSH6, PMS2; mutation analysis for BRAF, KRAS; NRAS mutation; Oncoplex mutation panel)","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology","Pathology Tests","Method","Method by which tests were run (IHC, FISH, Oncoplex, PCR, Mutational Analysis, RT-PCR, etc)","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology","Pathology Tests","Result","Result as written in path report (Positive, Negative, Amplified, Not Amplified, etc)","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology","Pathology Tests","Karyotype","Unique karyotype results (eventually coming via feed)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Pathology Tests","Notes","Mutational info, followed by a comma and further description if needed","Abstract","1","1","1","1","1","1",NA,"1","1","1"
-"Procedures","Pathology","Node Findings","Side","Side of lymph node","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Node Findings","Site","Site of lymph node","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Node Findings","Max Dim","Maximum dimension of lymph node","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Node Findings","Extension","Extra-capsular extension of nodal tumor: Absent, present, indeterminate (Y/N/Unknown)","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Node Findings","# Positive Notes","# positive lymph nodes","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Node Findings","Total # Nodes","Total # nodes listed","Abstract",NA,"1","1","1","1",NA,NA,"1","1",NA
-"Procedures","Pathology","Colorectal","ICD9_Code","International Classification of Diseases (ICD) code, 9th revision","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal","ICD0_Code","International Classification of Diseases (ICD) code, 10th revision","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal","Disease Extent","Extent of disease (Primary, Locally Recurrent / Persistent, Metastatic, None)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Tumor Max Dim","Maximum dimension of tumor in cm","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Configuration","Configuration of tumor (Sessile, Pedunculated, Polypoid, Fungating, Plaque-like, Annular (constrictive), Ulcerating infiltrative, Diffuse (linitis plastica-type), Cannot be determined, Unknown)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Grade","Tumor Grade (Well Differentiated, Moderately Differentiated, Poorly Differentiated, Undifferentiated)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Vascular Inv","Vascular Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Lymphatic Invasion","Lymphatic Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Perineural Invasion","Perineural Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Distal Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Lateral Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Proximal Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Polyp Pre-Existing","Any pre-existing polyps? (Yes, No, Unknown)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Polyps Away from Cancer","Any polyps away from cancer site? (Yes, No, Unknown)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","# of Polyps Pre-Existing","How many polyps were pre-exisiting?","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Polp Type Pre-Existing","Type of pre-existing polys (Inflammatory, Hyperplastic, Tubular adenoma : adenomatous polyp, Villous adenoma : tubulovillous adenoma, Pedunculated, Sessile, Unknown)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","# of Polyps Away from Cancer","How many polyps are away from the cancer site?","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Polyp Type Away from Cancer","Type of polyp away from cancer (Inflammatory, Hyperplastic, Tubular adenoma : adenomatous polyp, Villous adenoma : tubulovillous adenoma, Pedunculated, Sessile, Unknown)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Non-Neoplastic Bowel","Presence of non-neoplastic bowel? (Unremarkable, Inflammatory bowel disease, Ulcerative colitis with High Grade Dysplasia, Ulcerative colitis with Low Grade Dysplasia, Ulcerative colitis without, Dysplasia, Crohn’s disease with High Grade Dysplasia, Crohn’s disease with Low Grade Dysplasia, Crohn’s disease without Dysplasia, Diverticula, Non-specific colitis)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Colorectal Findings","Tumor-infiltrating Lymphocytes","# of tumor-infiltrating lymphocytes (TILs) reported in the EMR path report","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Prostate Biopsies","# Positive Cores","Number of cores positive for cancer","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Total # Cores","Total number of cores in the biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","# Positive Sites","Number of sites positive for cancer in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Total # Sites","Total number of sites in the biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Primary Gleason","Primary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Secondary Gleason","Secondary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Gleason Sum","The sum of the Gleason grades for the biopsy.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Tertiary Gleason Score","Enter if in the path report - not all biopsies will have a tertiary gleason score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Total Cancer Length","The total length in millimeters of cancer in the cores","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Total Core Length","Total length of the cores","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","PIN","Absence, presence or grade of prostate intraepithelial neoplasia in biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Perineural Invasion","Presence or absence of perineural invasion in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","ECE","Presence or absence of extra-capsular extension, extra-prostatic extension, prostate capsule invasion found in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","TURP Grams Resected","Grams of tissue resected by TURP (only on TURP Procedures)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","TURP % Tissue Examined","What % of tissue examined","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","TURP # Positive Chips","Number of positive chips from TURP","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","TURP Total # Chips","Total number of chips examined from TURP.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","TURP # Foci Cancer","Number of foci of cancer present in TURP chips.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsies","Tertiary Gleason Remarks","Only if something is reported about the Tertiary score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Side","Side from which the biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Level","Level from which the biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Laterality","Laterality from which biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Zone","Used with Transitional Zone specimens mostly","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Core Length","Length of the core in millimeter.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Cancer Length","Length of cancer in core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","GG1","Primary Gleason grade for the cancer in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","GG2","Secondary Gleason grade for the cancer in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","GGS:","Sum of the Gleason grades for cancer in core.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","Result","The result of the core.  If the core is ositive, this auto-fills based on the Gleason score.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","ECE:","Presence or absence of extra-capsular extension, extra-prostatic extension, prostate capsule invasion found in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","PNI","Presence or absence of perineural invasion in the core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostate Biopsy Cores","HG PIN","Absence, presence or grade of prostate intraepithelial neoplasia in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Prostate Specimen Weight in grams","Weight of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Primary Gleason","Primary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Secondary Gleason","Secondary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Gleason Sum","The sum of the Gleason grades for the biopsy.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Tertiary Gleason","Enter if in the path report - not all biopsies will have a tertiary gleason score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Additional Gleason Remarks","Additional comments, if relevant","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Tumor Volume","Volume of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Extra Prostatic Extension","Extra prostatic extension reported?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Seminal Vesicle Invasion","Invasion into seminal vesicle(s)?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Perineural Invasion","Perineural invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Bladder Neck Inv","Bladder neck invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Margin Status","Status of margins reported","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Prostatic Intraepithelial Neoplasia (PIN)","PIN?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Vascular Inv","Vascular invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Multifocal","Is the tumor multifocal?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Prostatectomy","Cancer Type","What is the histology/cancer type?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Procedures","Pathology","Head & Neck Pathology","Tumor Inv","Final resection margin invasion: Invasive Carcinoma or Intra-Epithelia Neoplasia","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Invasion Depth","Measurement of invasion depth","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Morphology","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Necrosis","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Venous/Lymphatic Inv","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Perineural Invasion","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Invasion Pattern","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Multi Centricity","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Dysplasia","2 drop down result=s Low grade Moderate Grade (Intraepithelial neoplasia); Severe (Carcinoma in situ)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Margin","Tumor margin: Not Applicable, Cannot be assessed, Negative","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Bone Inv","Absent, Present, Indeterminate","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Bone Margin","Status of bone margins reported","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Tumor Max Dim","Maximum tumor dimension","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","p16 Positive","Yes, No, Unknown","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Additional Path Findings","None identified, Epithelial hyperplasia, Intra-epithelial neoplasia not at margins, Inflammation","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Closest Margin Distance","Measurement to closest margin","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Head & Neck Pathology","Margin(s) Positive","# margins positive","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Procedures","Pathology","Sarcoma","Margin","Pathologist assessment of tumor at  margins (Positive, Negative, Negative >1cm)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
-"Procedures","Pathology","Sarcoma","Margin Size (mm)","Size of margin (1-10mm)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
-"Procedures","Pathology","Myeloma Pathology","% Plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Plasma cells enumerated by CD138 stain","Yes, No","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Anaplastic or plasmablastic morphology","Yes, No","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Light chain restriction by immunohistochemistry","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Final diagnosis","Text","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Tissue type","Text","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Light chain restriction by immunohistochemistry","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Plasma cells","Yes, No, Not assessed","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Final diagnosis","Text","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Specimen type","Bone marrow, blood, bone, soft tissue mass, other","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","Light chain restriction","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","% Abnormal plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Myeloma Pathology","% Normal plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Procedures","Pathology","Pancreas","Lymphatic (small vessel) Vascular Involvement","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas","Vascular (large vessel) Invasion","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas","Perineural Invasion","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas","Chronic Pancreatitis","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas","Pancreatic Intraepithelial Neoplasia (PanIN)","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas","Tumor Size","Largest dimension of tumor specimen in cm {text box}","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","SMA (retroperitoneal/uncinate) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Posterior Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Portal Vein Groove Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Pancreatic Neck (transection) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Bile Duct Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Enteric Margins","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Anterior Surface","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Proximal Pancreatic (transection) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Anterior (cephalad) Peripancreatic (peripheral) Surface (optional)","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Pancreas Margins","Posterior (caudad) Peripancreatic (peripheral) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Procedures","Pathology","Specimen Accessions","Collection Date","Date on which specimens were received","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Date","Date of scan","Feed","1","1","1","1","1","1","1","1","1","1"
-"Diagnostics",NA,NA,"Type","U/S, x-ray, CT, MRI, PET","Feed","1","1","1","1","1","1","1","1","1","1"
-"Diagnostics",NA,NA,"Target/Location","Tumor location within pancreas (Head/Uncinate/Neck/Body/Tail)","Abstract","1","1","1",NA,NA,NA,NA,"1","1",NA
-"Diagnostics",NA,NA,"Disease","Primary cancer type","Abstract","1","1","1",NA,"1","1","1","1","1","1"
-"Diagnostics",NA,NA,"Indiction","Medical indication for diagnostic test","Feed",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Diagnostics",NA,NA,"Size","Size of tumor per Radiology Report","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Nodes Positive","(Yes/No/Unknown)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Nodes Enlarged","(Yes/No/Unknown)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Node(s) Site","Side/site of nodes (Ipsilateral; Contralateral; Bilateral)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Distant Disease","(Yes/No/Unknown)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Enhancement","(Yes/No/Unknown)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Extracapsular Extension of Lymph Node(s)","(Yes/No/Unknown)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"SUV #","SUV score per Radiology Report (1-3, 3-6, 6-9, >10) *PET scans only","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Diagnostics",NA,NA,"Result","Overall result of the study","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Diagnostics","Other Image Findings",NA,"Side","Side of tumor","Abstract",NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
-"Diagnostics","Other Image Findings",NA,"Site","Site of tumor","Abstract",NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
-"Diagnostics","Other Image Findings",NA,"Subsite","Subsite of tumor","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Diagnostics","Other Image Findings",NA,"Status","Status of the image findings (ie ""Stable""  often seen in radiology report, ""Progression"", ""Unknown"" (in cases where it does not describe if new or pre-exisiting), ""Baseline"" (when first time seen on scan), and ""Improved"" (when tumor/abnormality is better from previous test). ""Partial Response"" and ""Complete Response"" can be used instead of Improvement if these exact words are in the radiology report.","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Diagnostics","Other Image Findings",NA,"Result","Result of the image (ie Abnormal Malignant, Abnormal Nonmalignant, etc)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Diagnostics","Other Image Findings",NA,"Height","Subsite of tumor","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
-"Diagnostics","Other Image Findings",NA,"Width","Status of the image findings (ie ""Stable""  often seen in radiology report, ""Progression"", ""Unknown"" (in cases where it does not describe if new or pre-exisiting), ""Baseline"" (when first time seen on scan), and ""Improved"" (when tumor/abnormality is better from previous test). ""Partial Response"" and ""Complete Response"" can be used instead of Improvement if these exact words are in the radiology report.","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
-"Diagnostics","Other Image Findings",NA,"Length","Result of the image (ie Abnormal Malignant, Abnormal Nonmalignant, etc)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
-"Diagnostics","Other Image Findings",NA,"Vascular Invasion","Was there vascular invasion (drop downs: Yes/No/Unknown/Not Applicable)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Number of Focal Bony Lesions","(MRI Bone Marrow only) Total number of focal bony lesions (drop downs: Numeric {type # with 1 decimal point}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Site of Focal Bony Lesions","(MRI Bone Marrow, PET/CT only) Anatomical location of focal bony lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Focal Bony Lesions","(MRI Bone Marrow, PET/CT only) Maximum size of focal bony lesions (cm) (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Focal Bony Lesions","(PET/CT only) Maximum SUV of focal bony lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Enlarged Lymph Nodes","(PET/CT only) Maximum size of enlarged lymph nodes (drop downs: Numeric {type # with 1 decimal point}, Not specified, No enlarged lymph nodes)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Enlarged Lymph Nodes","(PET/CT only) Maximum SUV of enlarged lymph nodes (drop downs: Numeric {type # with 1 decimal point}, Not specified, No abnormal lymph nodes)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Site of Mass Lesions","(PET/CT only) Anatomical location of mass lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Mass Lesions","(PET/CT only) Maximum size of mass lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Mass Lesions","(PET/CT only) Maximum SUV of mass lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Number of Lytic Lesions","(Osseus survey only) Total number of lytic lesions (drop downs: Numeric {type #}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Number of Lucent Lesions","(Osseus survey only) Total number of lucent lesions (drop downs: Numeric {type #}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Site of Lytic Lesions","(Osseus survey only) Anatomical location of lytic lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Site of Lucent Lesions","(Osseus survey only) Anatomical location of lucent lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Myeloma Imaging Results",NA,"Site of Fractures","(Osseus survey only) Anatomical location of fractures (text box)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Tumor Height","Height of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Tumor Width","Width of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Tumor Length","Length of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Peripancreatic Lymph Node","(Enlarged, Non-Enlarged)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Metastasis","Mets on imaging? (Yes/No/Unknown/Not Applicable)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Portal Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Superior Mesenteric Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Splenic Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Superior Mesenteric Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Celiac Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Pancreas Imaging",NA,"Hepatic Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Location of Mets",NA,"# Findings","Total # of mets within same same side/site (organ)","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Location of Mets",NA,"Side","Side where mets reported","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Location of Mets",NA,"Site","Site (organ) where mets reported","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Diagnostics","Location of Mets",NA,"Size of Mets","Size of mets","Abstract",NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
-"Medical Therapy",NA,NA,"During Operation On","Only if MedTx was given during Procedure","Abstract","1","1","1",NA,"1","1",NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Protocol #","Only if pt was involved in a protocol, enter #","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medical Therapy",NA,NA,"Start Date","Date Medtx initiated","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Medical Therapy",NA,NA,"Stop Date","Date Medtx ended (if available)","Abstract","1","1","1","1","1","1","1","1","1",NA
-"Medical Therapy",NA,NA,"Agent(s)","Name of Medtx (ie Gemcitabine, Fluorouracil, Leucovorin, Irinotecan, Oxaliplatin, Nab Paclitaxel, 5-FU)","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Medical Therapy",NA,NA,"Type","Specific type of Agent (ie Chemo)","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Medical Therapy",NA,NA,"Intent","Select Concurrent when given during RadTx; Neoadjuvant when given before surgery; Adjuvant when given after surgery; Systemic","Abstract",NA,"1","1","1",NA,NA,NA,"1","1",NA
-"Medical Therapy",NA,NA,"Disease","Primary cancer type","Abstract","1","1","1","1","1","1","1","1","1",NA
-"Medical Therapy",NA,NA,"Dose (with Units)","*If Normalized Dose not provided; prescribed daily dose of med","Abstract","1","1","1",NA,NA,NA,NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Total Dose (with Units)","Normalized Dose of the Agent (ie 75mg/m2)","Abstract","1","1","1",NA,NA,NA,NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Regimen Dose (with Units)","Prescribed regimen dosing","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Medical Therapy",NA,NA,"Actual Dose (with Units)","Dose for medical therapy","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
-"Medical Therapy",NA,NA,"Regimen Schedule","How Agent regimen was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Medical Therapy",NA,NA,"Actual Schedule","Schedule for medical therapy","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
-"Medical Therapy",NA,NA,"Route","How Agent was administed (ie orally, IVPB, intrathecal)","Abstract","1","1","1","1",NA,NA,NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract","1","1","1",NA,NA,NA,NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Total Cycles","Total # of Cycles or Dosages a pt received (if doses, put ""15 doses""; if cycles, just put #)","Abstract","1","1","1","1","1","1","1","1",NA,NA
-"Medical Therapy",NA,NA,"Institution","Where MedTx was administered/prescribed","Abstract","1","1","1","1","1","1",NA,"1",NA,NA
-"Medical Therapy",NA,NA,"Conditioning","Melphalan 200 mg/m2, Melphalan 140 mg/m2, Other (specify)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Medical Therapy",NA,NA,"Donor","Type of donor (Autologous, Sibling, Haploidentical, Umbilical Cord Blood, Unrelated)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Medical Therapy",NA,NA,"Transplant Type","Type of transplant (Autologous, Allogenic)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
-"Medical Therapy",NA,NA,"Stop Reason","Why this therapy was stopped (drop downs available or free text if other reason)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Start Date","Date this Medtx Agent initiated","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Stop Date","Date this Medtx Agent ended (if available)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Agent(s)","Name of MedTx (list individual drugs for FOLFOX)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Type","Specific type of Agent (ie Chemo)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Route","How Agent was administed (ie orally, IVPB, intrathecal)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Notes","Additional info if needed","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Actual Dose","*If Normalized Dose not provided; prescribed daily dose of med (120 mg)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Actual Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Actual Units","Units (mg, mg/m2, mg/kg)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Dose","Normalized Dose of the Agent (ie 75mg/m2)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Units","Units (mg, mg/m2, mg/kg)","Abstract",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
-"Radiation Therapy",NA,NA,"Start Date","Date RT initiated","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Radiation Therapy",NA,NA,"Stop Date","Date RT ended","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Radiation Therapy",NA,NA,"Disease","Pancreas Cancer","Abstract","1","1","1","1","1","1","1","1","1","1"
-"Radiation Therapy",NA,NA,"Type","Specific type of RT (Conventional [2D], 3D Conformal, IMRT, Proton, SBRT)","Abstract","1","1","1","1","1",NA,"1","1","1","1"
-"Radiation Therapy",NA,NA,"Isotope","Only if 'Type' is High-Dose Brachytherapy","Abstract","1","1","1","1",NA,NA,NA,"1",NA,NA
-"Radiation Therapy",NA,NA,"Site","Specify Disease that is receiving tx","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Radiation Therapy",NA,NA,"Target","Area RT was focused","Abstract","1","1","1","1","1",NA,"1","1","1","1"
-"Radiation Therapy",NA,NA,"Intent","Select Concurrent when given with MedTx; Palliative when RT is palliative; Neoadjuvant if pre-surgery; Adjuvant if post-surgery; Definitive if given to cure","Abstract",NA,"1","1","1",NA,NA,NA,"1","1","1"
-"Radiation Therapy",NA,NA,"Summary","Summary of therapy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Radiation Therapy",NA,NA,"Dose/Fraction","Radiation dose per fraction","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Radiation Therapy",NA,NA,"# Fields","Number of fields radiated","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Radiation Therapy",NA,NA,"Schedule","Schedule of therapy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Radiation Therapy",NA,NA,"Total Dose","Total dose of RT","Abstract","1","1","1","1","1",NA,"1","1",NA,"1"
-"Radiation Therapy",NA,NA,"# Fractions","Total # of fractions completed","Abstract","1","1","1","1","1",NA,NA,"1",NA,"1"
-"Radiation Therapy",NA,NA,"Physician","Name of Radiation Oncologist","Abstract","1","1","1","1","1",NA,NA,"1",NA,"1"
-"Radiation Therapy",NA,NA,"Institution","Where RT was performed","Abstract","1","1","1","1","1",NA,NA,"1",NA,"1"
-"Radiation Therapy",NA,NA,"Total Dose Primary","Total dose of RT to primary site","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Radiation Therapy",NA,NA,"Total Dose Neck","Total dose given to the neck","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"History of Tobacco Use","Did patient ever use tobacco products (Y/N)","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Social Histories",NA,NA,"Tobacco Usage (Yrs)","How many years did they use tobacco product?","Abstract",NA,"1","1","1","1",NA,NA,"1","1","1"
-"Social Histories",NA,NA,"Current Tobacco Use","Are they currently using tobacco products (Y/N)","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Social Histories",NA,NA,"Packs per Day","# packs per day pt smokes/smoked (blank field)","Abstract",NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Packs per Year","# packes smoked yearly","Abstract",NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"History of Alcohol Use","Did the patient ever consume alcohol (Y/N)","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Social Histories",NA,NA,"Alcohol Usage (Yrs)","How many years did they use alcohol?","Abstract",NA,"1","1",NA,"1",NA,NA,"1","1","1"
-"Social Histories",NA,NA,"Current Alcohol Use","Are they currently using alcohol (Y/N)","Abstract",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
-"Social Histories",NA,NA,"Drinks Per Day","How many drinks do they consume daily?","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"History of IV Drug Use","Did the patient ever use IV drugs (Y/N)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"IV Drug Usage (Yrs)","How many years did they use IV drugs?","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Current IV Drug Use","Are they currently using IV drugs (Y/N)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Smoking Status","Status of smoking (Current/Former/Never)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Date Quit Smoking","Date pt quit smoking","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"# Packs Years","# pack smokes/smoked each year (blank field)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"# Packs/day","# packs per day pt smokes/smoked (blank field)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Alcohol Usage (Yrs)","How many years did they use alcohol?","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Alcohol Amount","How many drinks/day? (0; 1-2; 3-4; 5 or more)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
-"Social Histories",NA,NA,"Smoking Status/Tobacco Usage","Chewing tobacco; cigarettes; cigars; marijuana; never; no; pipe; unknown; yes","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Tobacco Year Quit","Year pt quit smoking","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"# of Children","# of biological children","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Carcinogen exposure","asbestos, agent orange, etc","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Other","Other risk or exposure such as drug abuse","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Occupation","Patient’s occupation.  If patient is retired and the occupation in which he worked is known, specify the occupation.  If occupation is not known and patient is retired, enter “Retired”.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Marital Status","Patient's current marital status.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Vietnam Veteran","Important info for tracking disproportionately affected men (agent orange exposure)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Social Histories",NA,NA,"Notes","Free text field for additional details","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Comorbidities",NA,NA,"Comorbidity","Type of comorbidity, prior condition, etc","Abstract",NA,"1",NA,"1","1",NA,NA,"1","1","1"
-"Comorbidities",NA,NA,"Treatment","Unique to disease group","Abstract",NA,NA,NA,NA,"1",NA,NA,"1",NA,NA
-"Comorbidities",NA,NA,"Status","Unique to disease group","Abstract",NA,NA,NA,NA,"1",NA,NA,"1",NA,NA
-"Comorbidities",NA,NA,"System","Unique to disease group","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Comorbidities",NA,NA,"Grade","Unique to disease group","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
-"Comorbidities",NA,NA,"Date","Date on which Comorbidity diagnosed","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
-"Demographics",NA,NA,"MRN","Medical record number","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"First (Given)","Legal name","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Middle","Legal name","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Last (Surname)","Legal name","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Birth Date","Date of birth","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Race","What race patient associated","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Ethnicity","What ethnicity patient associated","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Gender","Male or Female","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Age","Current age","Autocalculated","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Death Date","Date of death","Abstract/Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Death Type","Select type of death, if known","Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Death Source","Source used to determine pt is deceased","Abstract/Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Address (line 1)","Current residence","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Address (line 2)","Current residence","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"City","Current city","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"State","Current state","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Postal Code","Current zip code","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Country","Current country","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Email","Active email address","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics",NA,NA,"Language","Preferred language","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics","Phone Numbers",NA,"Type","Type of #, cell/home/work","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Demographics","Phone Numbers",NA,"Number","Phone #","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Patient Protocols",NA,NA,"Protocol","Protocol #/Name","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Patient Protocols","Protocol Status",NA,"Date","Date of Protocol event","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Patient Protocols","Protocol Status",NA,"Status","Status of Protocol (Treatment Start, Off Study, etc)","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Patient Protocols","Protocol Status",NA,"Reason","Reason for Status, if relevant","Feed","1","1","1","1",NA,"1","1","1","1","1"
-"Brachytherapy",NA,NA,"# Seeds","# seeds placed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"# Needles","# needles used","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Physician","Name of the physician who performed the brachytherapy procedure","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Date","Date the procedure was performed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Time","Time of procedure","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Isotope","Isotope used for brachytherapy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Prescribed Dose","Radiation dose for the bachytherapy implant.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Brachytherapy",NA,NA,"Notes","Free text field for additonal details","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Family Members",NA,NA,"# of","Actual number of affected relatives in the category, ie ""2"" uncles","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Family Members",NA,NA,"Side of family","Relation – The specific relation of the family member.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1","1"
-"Family Members",NA,NA,"Relation","The side of the family from which the relative is.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1","1"
-"Family Members","Family Member Diagnosis",NA,"Diagnosis","Family member with history of Pancreatitis, Pancreatic Cancer, or Other Cancer?","Abstract",NA,"1",NA,NA,NA,NA,NA,"1","1",NA
-"Family Members","Family Member Diagnosis",NA,"Diagnosis Age","Family member's age when diagnosed with above disease","Abstract",NA,"1",NA,NA,NA,NA,NA,"1","1",NA
-"Family Members","Family Member Diagnosis",NA,"Note","If Other Cancer, enter type of cancer (breast, lung, etc)","Abstract",NA,"1",NA,NA,NA,NA,NA,"1","1",NA
-"Medications",NA,NA,"Start Date","Date Med started","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Stop Date","Date Med ended/discontinued","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Type","What category is the medication (ie Hormone Replacement)","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Medication","Name of Medication (enter only if ""Prolia"")","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Dose, Total Dose (with Units)","Dose or Normalized dose prescribed","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Route","How was it administered","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Medications",NA,NA,"Schedule","How was it prescribed","Abstract","1",NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests",NA,NA,"Date","Date lab test performed","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Time (if applicable)","Time lab test peformed (can be important for Cortisol or other fasting labs)","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Accession #","Accession # assigned to specimen","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Lab Test","Name of test","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Result","Result","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Units","Units","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests",NA,NA,"Normal Range","Normal range for that test, if provided","Feed/Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Lab Tests","Genetics",NA,"Specimen Type","Type of specimen tested","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Company Performing Test","Name of company which performed testing","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Gene","Gene tested","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Mutation","Type of mutation found","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Result","Result of testing","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Interpretation","Interpretation of testing (Deleterious, etc)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Lab Tests","Genetics",NA,"Comments","Additional info can be entered here if needed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Diseases",NA,NA,"Disease","Diseases which the pt is diagnosed (all have GU; also put specific GU location if provided ie Prostate)","Feed/Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Physicians",NA,NA,"Physician","Physician(s) involved in patient’s treatment.  May include primary, treating, referring or consulting physicians.","Feed",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
-"Absent Event",NA,NA,"Table","General type of Treatment not given","Abstract","1","1","1","1",NA,NA,NA,NA,NA,NA
-"Absent Event",NA,NA,"Field","Specific type of Treatment not given","Abstract","1","1","1","1",NA,NA,NA,NA,NA,NA
-"Absent Event",NA,NA,"FieldValue","Name of Treatment not given","Abstract","1","1","1","1",NA,NA,NA,NA,NA,NA
-"Absent Event",NA,NA,"Reason","Why Treatment not given","Abstract","1","1","1","1",NA,NA,NA,NA,NA,NA
-"Absent Event",NA,NA,"Absent Date","Most recent known date that Treatment was not given","Abstract","1","1","1","1",NA,NA,NA,NA,NA,NA
-"Actions",NA,NA,"Date","Date upon which record completely entered (all groups); Date of update or action taken on this patient's record ***update all records if >1 month from last Action entry; put ""Record Complete"" when deceased patient has been fully entered (Prostate ONLY)","Abstract","1","1","1","1",NA,"1","1","1","1","1"
-"Actions",NA,NA,"Action Item","""Record Complete"" selected for deceased patients when primary cancer history data has been fully entered; Where data was abstracted from (Prostate only!)","Abstract","1","1","1","1",NA,"1","1","1","1","1"
+","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology",NA,"From Operation On","Date of surgery/operation","Abstract","1",NA,"1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology",NA,"Source Procedure","From which surgery was this pathology specimen taken","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Path Report Date","Date path report signed out","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Path #","Specific # and letters given to specimen","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Specimen Type","Description of specimen (ie pancreatic mass)","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Site","Specific site per path report","Abstract","1","1","1","1","1","1","1",NA,"1","1","1","1"
+"Procedures","Pathology",NA,"Side","Specific side per path report","Abstract","1","1","1","1","1","1",NA,NA,"1",NA,NA,"1"
+"Procedures","Pathology",NA,"Result","Type of sarcoma diagnosed: Soft tissue sarcoma vs Bone sarcoma vs Benign tumor vs Other","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology",NA,"Histology","Histology of the cancer per path report","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Secondary Histology","More description of path, if needed","Abstract","1","1","1","1","1","1","1","1",NA,"1",NA,"1"
+"Procedures","Pathology",NA,"Institution","Where pathology was reviewed","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Pathologist","Name of Pathologist reviewing specimen","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology",NA,"Notes","Additional text if needed","Feed/Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Procedures","Pathology","Pathology Stages","Disease","Pancreas Cancer","Abstract","1",NA,"1","1","1","1","1",NA,NA,"1","1","1"
+"Procedures","Pathology","Pathology Stages","Staging System","Type of Staging system used (AJCC_02)","Abstract","1",NA,NA,"1","1","1","1",NA,NA,"1","1","1"
+"Procedures","Pathology","Pathology Stages","Site","Site of disease","Abstract",NA,NA,NA,"1",NA,"1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Pathology Stages","T","Tumor stage (yTX, T0, Tis, T1-4)","Abstract","1",NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Pathology Stages","N","Lymph node stage (NX, N0, N1)","Abstract","1",NA,NA,"1","1","1","1",NA,NA,"1","1","1"
+"Procedures","Pathology","Pathology Stages","M","Mets stage (N/A, MX, M0, M1)","Abstract","1",NA,NA,"1","1","1","1",NA,NA,"1","1","1"
+"Procedures","Pathology","Pathology Stages","Grade","Grade of tumor (GX cannot be assessed, GX not graded, G1-G4)","Abstract",NA,NA,"1","1","1",NA,"1",NA,NA,"1",NA,NA
+"Procedures","Pathology","Pathology Findings","Finding","Free text to specify pathological findings","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,NA,NA,NA
+"Procedures","Pathology","Pathology Findings","Side","Side of body involved","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,NA,NA,NA
+"Procedures","Pathology","Pathology Findings","Site","Site of body involved","Abstract",NA,NA,NA,"1",NA,"1","1",NA,NA,"1",NA,NA
+"Procedures","Pathology","Pathology Findings","Histology","Histotology of the cancer based on Snomed codes","Abstract","1","1",NA,"1","1","1","1",NA,NA,"1",NA,"1"
+"Procedures","Pathology","Pathology Findings","Grade","Grade of tumor (GX cannot be assessed, GX not graded, G1-G4)","Abstract","1","1",NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Procedures","Pathology","Pathology Findings","Height","Height of tumor","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology","Pathology Findings","Width","Width of tumor","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology","Pathology Findings","Length","Length of tumor","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology","Pathology Tests","Date","Sign out date","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology","Pathology Tests","Test","Type of test (MSI; IHC for MLH1, MSH2, MSH6, PMS2; mutation analysis for BRAF, KRAS; NRAS mutation; Oncoplex mutation panel)","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology","Pathology Tests","Method","Method by which tests were run (IHC, FISH, Oncoplex, PCR, Mutational Analysis, RT-PCR, etc)","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology","Pathology Tests","Result","Result as written in path report (Positive, Negative, Amplified, Not Amplified, etc)","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology","Pathology Tests","Karyotype","Unique karyotype results (eventually coming via feed)","Abstract",NA,"1",NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Pathology Tests","Notes","Mutational info, followed by a comma and further description if needed","Abstract","1","1","1","1","1","1","1","1",NA,"1","1","1"
+"Procedures","Pathology","Node Findings","Side","Side of lymph node","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Node Findings","Site","Site of lymph node","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Node Findings","Max Dim","Maximum dimension of lymph node","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Node Findings","Extension","Extra-capsular extension of nodal tumor: Absent, present, indeterminate (Y/N/Unknown)","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Node Findings","# Positive Notes","# positive lymph nodes","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Node Findings","Total # Nodes","Total # nodes listed","Abstract",NA,NA,NA,"1","1","1","1",NA,NA,"1","1",NA
+"Procedures","Pathology","Colorectal","ICD9_Code","International Classification of Diseases (ICD) code, 9th revision","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal","ICD0_Code","International Classification of Diseases (ICD) code, 10th revision","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal","Disease Extent","Extent of disease (Primary, Locally Recurrent / Persistent, Metastatic, None)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Tumor Max Dim","Maximum dimension of tumor in cm","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Configuration","Configuration of tumor (Sessile, Pedunculated, Polypoid, Fungating, Plaque-like, Annular (constrictive), Ulcerating infiltrative, Diffuse (linitis plastica-type), Cannot be determined, Unknown)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Grade","Tumor Grade (Well Differentiated, Moderately Differentiated, Poorly Differentiated, Undifferentiated)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Vascular Inv","Vascular Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Lymphatic Invasion","Lymphatic Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Perineural Invasion","Perineural Invasion? (Present, Absent, Suspicious, Not Identified)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Distal Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Lateral Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Proximal Margin","Negative, Close, Not Available, Negative TissueRemoved (negative additional tissue removed), Unknown","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Polyp Pre-Existing","Any pre-existing polyps? (Yes, No, Unknown)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Polyps Away from Cancer","Any polyps away from cancer site? (Yes, No, Unknown)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","# of Polyps Pre-Existing","How many polyps were pre-exisiting?","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Polp Type Pre-Existing","Type of pre-existing polys (Inflammatory, Hyperplastic, Tubular adenoma : adenomatous polyp, Villous adenoma : tubulovillous adenoma, Pedunculated, Sessile, Unknown)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","# of Polyps Away from Cancer","How many polyps are away from the cancer site?","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Polyp Type Away from Cancer","Type of polyp away from cancer (Inflammatory, Hyperplastic, Tubular adenoma : adenomatous polyp, Villous adenoma : tubulovillous adenoma, Pedunculated, Sessile, Unknown)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Non-Neoplastic Bowel","Presence of non-neoplastic bowel? (Unremarkable, Inflammatory bowel disease, Ulcerative colitis with High Grade Dysplasia, Ulcerative colitis with Low Grade Dysplasia, Ulcerative colitis without, Dysplasia, Crohn’s disease with High Grade Dysplasia, Crohn’s disease with Low Grade Dysplasia, Crohn’s disease without Dysplasia, Diverticula, Non-specific colitis)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Colorectal Findings","Tumor-infiltrating Lymphocytes","# of tumor-infiltrating lymphocytes (TILs) reported in the EMR path report","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Prostate Biopsies","# Positive Cores","Number of cores positive for cancer","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Total # Cores","Total number of cores in the biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","# Positive Sites","Number of sites positive for cancer in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Total # Sites","Total number of sites in the biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Primary Gleason","Primary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Secondary Gleason","Secondary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Gleason Sum","The sum of the Gleason grades for the biopsy.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Tertiary Gleason Score","Enter if in the path report - not all biopsies will have a tertiary gleason score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Total Cancer Length","The total length in millimeters of cancer in the cores","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Total Core Length","Total length of the cores","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","PIN","Absence, presence or grade of prostate intraepithelial neoplasia in biopsy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Perineural Invasion","Presence or absence of perineural invasion in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","ECE","Presence or absence of extra-capsular extension, extra-prostatic extension, prostate capsule invasion found in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","TURP Grams Resected","Grams of tissue resected by TURP (only on TURP Procedures)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","TURP % Tissue Examined","What % of tissue examined","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","TURP # Positive Chips","Number of positive chips from TURP","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","TURP Total # Chips","Total number of chips examined from TURP.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","TURP # Foci Cancer","Number of foci of cancer present in TURP chips.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsies","Tertiary Gleason Remarks","Only if something is reported about the Tertiary score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Side","Side from which the biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Level","Level from which the biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Laterality","Laterality from which biopsy was taken.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Zone","Used with Transitional Zone specimens mostly","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Core Length","Length of the core in millimeter.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Cancer Length","Length of cancer in core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","GG1","Primary Gleason grade for the cancer in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","GG2","Secondary Gleason grade for the cancer in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","GGS:","Sum of the Gleason grades for cancer in core.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","Result","The result of the core.  If the core is ositive, this auto-fills based on the Gleason score.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","ECE:","Presence or absence of extra-capsular extension, extra-prostatic extension, prostate capsule invasion found in prostate biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","PNI","Presence or absence of perineural invasion in the core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostate Biopsy Cores","HG PIN","Absence, presence or grade of prostate intraepithelial neoplasia in this core.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Prostate Specimen Weight in grams","Weight of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Primary Gleason","Primary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Secondary Gleason","Secondary Gleason grade for the cancer in the biopsy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Gleason Sum","The sum of the Gleason grades for the biopsy.  If grades 1 and 2 are entered, Caisis will calculate this.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Tertiary Gleason","Enter if in the path report - not all biopsies will have a tertiary gleason score","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Additional Gleason Remarks","Additional comments, if relevant","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Tumor Volume","Volume of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Extra Prostatic Extension","Extra prostatic extension reported?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Seminal Vesicle Invasion","Invasion into seminal vesicle(s)?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Perineural Invasion","Perineural invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Bladder Neck Inv","Bladder neck invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Margin Status","Status of margins reported","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Prostatic Intraepithelial Neoplasia (PIN)","PIN?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Vascular Inv","Vascular invasion?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Multifocal","Is the tumor multifocal?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Prostatectomy","Cancer Type","What is the histology/cancer type?","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Procedures","Pathology","Head & Neck Pathology","Tumor Inv","Final resection margin invasion: Invasive Carcinoma or Intra-Epithelia Neoplasia","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Invasion Depth","Measurement of invasion depth","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Morphology","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Necrosis","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Venous/Lymphatic Inv","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Perineural Invasion","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Invasion Pattern","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Multi Centricity","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Dysplasia","2 drop down result=s Low grade Moderate Grade (Intraepithelial neoplasia); Severe (Carcinoma in situ)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Margin","Tumor margin: Not Applicable, Cannot be assessed, Negative","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Bone Inv","Absent, Present, Indeterminate","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Bone Margin","Status of bone margins reported","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Tumor Max Dim","Maximum tumor dimension","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","p16 Positive","Yes, No, Unknown","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Additional Path Findings","None identified, Epithelial hyperplasia, Intra-epithelial neoplasia not at margins, Inflammation","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Closest Margin Distance","Measurement to closest margin","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Head & Neck Pathology","Margin(s) Positive","# margins positive","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Procedures","Pathology","Sarcoma","Margin","Pathologist assessment of tumor at  margins (Positive, Negative, Negative >1cm)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology","Sarcoma","Margin Size (mm)","Size of margin (1-10mm)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1"
+"Procedures","Pathology","Myeloma Pathology","% Plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Plasma cells enumerated by CD138 stain","Yes, No","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Anaplastic or plasmablastic morphology","Yes, No","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Light chain restriction by immunohistochemistry","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Final diagnosis","Text","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Tissue type","Text","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Light chain restriction by immunohistochemistry","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Plasma cells","Yes, No, Not assessed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Final diagnosis","Text","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Specimen type","Bone marrow, blood, bone, soft tissue mass, other","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","Light chain restriction","Kappa, Lambda, Polyclonal, Not specified","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","% Abnormal plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Myeloma Pathology","% Normal plasma cells","Number","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Procedures","Pathology","Pancreas","Lymphatic (small vessel) Vascular Involvement","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas","Vascular (large vessel) Invasion","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas","Perineural Invasion","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas","Chronic Pancreatitis","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas","Pancreatic Intraepithelial Neoplasia (PanIN)","Yes/No/Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas","Tumor Size","Largest dimension of tumor specimen in cm {text box}","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","SMA (retroperitoneal/uncinate) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Posterior Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Portal Vein Groove Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Pancreatic Neck (transection) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Bile Duct Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Enteric Margins","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Anterior Surface","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Proximal Pancreatic (transection) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Anterior (cephalad) Peripancreatic (peripheral) Surface (optional)","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Pancreas Margins","Posterior (caudad) Peripancreatic (peripheral) Margin","Close  (within 1 mm), Negative, Positive, Not Applicable, Unknown","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Procedures","Pathology","Specimen Accessions","Collection Date","Date on which specimens were received","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Date","Date of scan","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Diagnostics",NA,NA,"Type","U/S, x-ray, CT, MRI, PET","Feed","1","1","1","1","1","1","1","1","1","1","1","1"
+"Diagnostics",NA,NA,"Target/Location","Tumor location within pancreas (Head/Uncinate/Neck/Body/Tail)","Abstract",NA,NA,"1","1","1",NA,NA,NA,NA,"1","1",NA
+"Diagnostics",NA,NA,"Disease","Primary cancer type","Abstract",NA,NA,"1","1","1",NA,"1","1","1","1","1","1"
+"Diagnostics",NA,NA,"Indiction","Medical indication for diagnostic test","Feed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Diagnostics",NA,NA,"Size","Size of tumor per Radiology Report","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Nodes Positive","(Yes/No/Unknown)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Nodes Enlarged","(Yes/No/Unknown)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Node(s) Site","Side/site of nodes (Ipsilateral; Contralateral; Bilateral)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Distant Disease","(Yes/No/Unknown)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Enhancement","(Yes/No/Unknown)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Extracapsular Extension of Lymph Node(s)","(Yes/No/Unknown)","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"SUV #","SUV score per Radiology Report (1-3, 3-6, 6-9, >10) *PET scans only","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Diagnostics",NA,NA,"Result","Overall result of the study","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Diagnostics","Other Image Findings",NA,"Side","Side of tumor","Abstract",NA,NA,NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
+"Diagnostics","Other Image Findings",NA,"Site","Site of tumor","Abstract",NA,NA,NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
+"Diagnostics","Other Image Findings",NA,"Subsite","Subsite of tumor","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Diagnostics","Other Image Findings",NA,"Status","Status of the image findings (ie ""Stable""  often seen in radiology report, ""Progression"", ""Unknown"" (in cases where it does not describe if new or pre-exisiting), ""Baseline"" (when first time seen on scan), and ""Improved"" (when tumor/abnormality is better from previous test). ""Partial Response"" and ""Complete Response"" can be used instead of Improvement if these exact words are in the radiology report.","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Diagnostics","Other Image Findings",NA,"Result","Result of the image (ie Abnormal Malignant, Abnormal Nonmalignant, etc)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Diagnostics","Other Image Findings",NA,"Height","Subsite of tumor","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
+"Diagnostics","Other Image Findings",NA,"Width","Status of the image findings (ie ""Stable""  often seen in radiology report, ""Progression"", ""Unknown"" (in cases where it does not describe if new or pre-exisiting), ""Baseline"" (when first time seen on scan), and ""Improved"" (when tumor/abnormality is better from previous test). ""Partial Response"" and ""Complete Response"" can be used instead of Improvement if these exact words are in the radiology report.","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
+"Diagnostics","Other Image Findings",NA,"Length","Result of the image (ie Abnormal Malignant, Abnormal Nonmalignant, etc)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1"
+"Diagnostics","Other Image Findings",NA,"Vascular Invasion","Was there vascular invasion (drop downs: Yes/No/Unknown/Not Applicable)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Number of Focal Bony Lesions","(MRI Bone Marrow only) Total number of focal bony lesions (drop downs: Numeric {type # with 1 decimal point}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Site of Focal Bony Lesions","(MRI Bone Marrow, PET/CT only) Anatomical location of focal bony lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Focal Bony Lesions","(MRI Bone Marrow, PET/CT only) Maximum size of focal bony lesions (cm) (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Focal Bony Lesions","(PET/CT only) Maximum SUV of focal bony lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Enlarged Lymph Nodes","(PET/CT only) Maximum size of enlarged lymph nodes (drop downs: Numeric {type # with 1 decimal point}, Not specified, No enlarged lymph nodes)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Enlarged Lymph Nodes","(PET/CT only) Maximum SUV of enlarged lymph nodes (drop downs: Numeric {type # with 1 decimal point}, Not specified, No abnormal lymph nodes)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Site of Mass Lesions","(PET/CT only) Anatomical location of mass lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max Size of Mass Lesions","(PET/CT only) Maximum size of mass lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Max SUV of Mass Lesions","(PET/CT only) Maximum SUV of mass lesions (drop downs: Numeric {type # with 1 decimal point}, Not specified, No lesions)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Number of Lytic Lesions","(Osseus survey only) Total number of lytic lesions (drop downs: Numeric {type #}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Number of Lucent Lesions","(Osseus survey only) Total number of lucent lesions (drop downs: Numeric {type #}, Multiple but # not specified; None)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Site of Lytic Lesions","(Osseus survey only) Anatomical location of lytic lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Site of Lucent Lesions","(Osseus survey only) Anatomical location of lucent lesions (text box)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Myeloma Imaging Results",NA,"Site of Fractures","(Osseus survey only) Anatomical location of fractures (text box)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Tumor Height","Height of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Tumor Width","Width of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Tumor Length","Length of tumor","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Peripancreatic Lymph Node","(Enlarged, Non-Enlarged)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Metastasis","Mets on imaging? (Yes/No/Unknown/Not Applicable)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Portal Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Superior Mesenteric Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Splenic Vein","(Uninvolved, Abuts, Partial Encasement, Complete Encasement, Thrombosis)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Superior Mesenteric Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Celiac Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Pancreas Imaging",NA,"Hepatic Artery","(Uninvolved, Abuts, Partial Encasement, Complete Encasement)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Location of Mets",NA,"# Findings","Total # of mets within same same side/site (organ)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Location of Mets",NA,"Side","Side where mets reported","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Location of Mets",NA,"Site","Site (organ) where mets reported","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Diagnostics","Location of Mets",NA,"Size of Mets","Size of mets","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA
+"Medical Therapy",NA,NA,"During Operation On","Only if MedTx was given during Procedure","Abstract",NA,NA,"1","1","1",NA,"1","1",NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Protocol #","Only if pt was involved in a protocol, enter #","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medical Therapy",NA,NA,"Start Date","Date Medtx initiated","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Medical Therapy",NA,NA,"Stop Date","Date Medtx ended (if available)","Abstract","1","1","1","1","1","1","1","1","1","1","1",NA
+"Medical Therapy",NA,NA,"Agent(s)","Name of Medtx (ie Gemcitabine, Fluorouracil, Leucovorin, Irinotecan, Oxaliplatin, Nab Paclitaxel, 5-FU)","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Medical Therapy",NA,NA,"Type","Specific type of Agent (ie Chemo)","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Medical Therapy",NA,NA,"Intent","Select Concurrent when given during RadTx; Neoadjuvant when given before surgery; Adjuvant when given after surgery; Systemic","Abstract",NA,NA,NA,"1","1","1",NA,NA,NA,"1","1",NA
+"Medical Therapy",NA,NA,"Disease","Primary cancer type","Abstract","1","1","1","1","1","1","1","1","1","1","1",NA
+"Medical Therapy",NA,NA,"Dose (with Units)","*If Normalized Dose not provided; prescribed daily dose of med","Abstract",NA,NA,"1","1","1",NA,NA,NA,NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Total Dose (with Units)","Normalized Dose of the Agent (ie 75mg/m2)","Abstract",NA,NA,"1","1","1",NA,NA,NA,NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Regimen Dose (with Units)","Prescribed regimen dosing","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Medical Therapy",NA,NA,"Actual Dose (with Units)","Dose for medical therapy","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
+"Medical Therapy",NA,NA,"Regimen Schedule","How Agent regimen was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Medical Therapy",NA,NA,"Actual Schedule","Schedule for medical therapy","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
+"Medical Therapy",NA,NA,"Route","How Agent was administed (ie orally, IVPB, intrathecal)","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,NA,"1","1","1",NA,NA,NA,NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Total Cycles","Total # of Cycles or Dosages a pt received (if doses, put ""15 doses""; if cycles, just put #)","Abstract","1","1","1","1","1","1","1","1","1","1",NA,NA
+"Medical Therapy",NA,NA,"Institution","Where MedTx was administered/prescribed","Abstract",NA,NA,"1","1","1","1","1","1",NA,"1",NA,NA
+"Medical Therapy",NA,NA,"Conditioning","Melphalan 200 mg/m2, Melphalan 140 mg/m2, Other (specify)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Medical Therapy",NA,NA,"Donor","Type of donor (Autologous, Sibling, Haploidentical, Umbilical Cord Blood, Unrelated)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Medical Therapy",NA,NA,"Transplant Type","Type of transplant (Autologous, Allogenic)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,"1",NA,NA,NA
+"Medical Therapy",NA,NA,"Stop Reason","Why this therapy was stopped (drop downs available or free text if other reason)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Start Date","Date this Medtx Agent initiated","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Stop Date","Date this Medtx Agent ended (if available)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Agent(s)","Name of MedTx (list individual drugs for FOLFOX)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Type","Specific type of Agent (ie Chemo)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Route","How Agent was administed (ie orally, IVPB, intrathecal)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Notes","Additional info if needed","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Actual Dose","*If Normalized Dose not provided; prescribed daily dose of med (120 mg)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Actual Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Actual Units","Units (mg, mg/m2, mg/kg)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Dose","Normalized Dose of the Agent (ie 75mg/m2)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Schedule","How Agent was prescribed (ie 5/28, Daily, q2 weeks)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Medical Therapy","Medical Therapy Administrations",NA,"Regimen Units","Units (mg, mg/m2, mg/kg)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,NA
+"Radiation Therapy",NA,NA,"Start Date","Date RT initiated","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Radiation Therapy",NA,NA,"Stop Date","Date RT ended","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Radiation Therapy",NA,NA,"Disease","Pancreas Cancer","Abstract","1","1","1","1","1","1","1","1","1","1","1","1"
+"Radiation Therapy",NA,NA,"Type","Specific type of RT (Conventional [2D], 3D Conformal, IMRT, Proton, SBRT)","Abstract","1","1","1","1","1","1","1",NA,"1","1","1","1"
+"Radiation Therapy",NA,NA,"Isotope","Only if 'Type' is High-Dose Brachytherapy","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,"1",NA,NA
+"Radiation Therapy",NA,NA,"Site","Specify Disease that is receiving tx","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Radiation Therapy",NA,NA,"Target","Area RT was focused","Abstract","1",NA,"1","1","1","1","1",NA,"1","1","1","1"
+"Radiation Therapy",NA,NA,"Intent","Select Concurrent when given with MedTx; Palliative when RT is palliative; Neoadjuvant if pre-surgery; Adjuvant if post-surgery; Definitive if given to cure","Abstract","1",NA,NA,"1","1","1",NA,NA,NA,"1","1","1"
+"Radiation Therapy",NA,NA,"Summary","Summary of therapy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Radiation Therapy",NA,NA,"Dose/Fraction","Radiation dose per fraction","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Radiation Therapy",NA,NA,"# Fields","Number of fields radiated","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Radiation Therapy",NA,NA,"Schedule","Schedule of therapy","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Radiation Therapy",NA,NA,"Total Dose","Total dose of RT","Abstract","1","1","1","1","1","1","1",NA,"1","1",NA,"1"
+"Radiation Therapy",NA,NA,"# Fractions","Total # of fractions completed","Abstract","1",NA,"1","1","1","1","1",NA,NA,"1",NA,"1"
+"Radiation Therapy",NA,NA,"Physician","Name of Radiation Oncologist","Abstract","1",NA,"1","1","1","1","1",NA,NA,"1",NA,"1"
+"Radiation Therapy",NA,NA,"Institution","Where RT was performed","Abstract","1",NA,"1","1","1","1","1",NA,NA,"1",NA,"1"
+"Radiation Therapy",NA,NA,"Total Dose Primary","Total dose of RT to primary site","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Radiation Therapy",NA,NA,"Total Dose Neck","Total dose given to the neck","Abstract",NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"History of Tobacco Use","Did patient ever use tobacco products (Y/N)","Abstract","1",NA,NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Social Histories",NA,NA,"Tobacco Usage (Yrs)","How many years did they use tobacco product?","Abstract","1",NA,NA,"1","1","1","1",NA,NA,"1","1","1"
+"Social Histories",NA,NA,"Current Tobacco Use","Are they currently using tobacco products (Y/N)","Abstract","1",NA,NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Social Histories",NA,NA,"Packs per Day","# packs per day pt smokes/smoked (blank field)","Abstract",NA,NA,NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Packs per Year","# packes smoked yearly","Abstract",NA,NA,NA,"1",NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"History of Alcohol Use","Did the patient ever consume alcohol (Y/N)","Abstract","1",NA,NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Social Histories",NA,NA,"Alcohol Usage (Yrs)","How many years did they use alcohol?","Abstract",NA,NA,NA,"1","1",NA,"1",NA,NA,"1","1","1"
+"Social Histories",NA,NA,"Current Alcohol Use","Are they currently using alcohol (Y/N)","Abstract","1",NA,NA,"1","1",NA,"1",NA,NA,"1",NA,"1"
+"Social Histories",NA,NA,"Drinks Per Day","How many drinks do they consume daily?","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"History of IV Drug Use","Did the patient ever use IV drugs (Y/N)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"IV Drug Usage (Yrs)","How many years did they use IV drugs?","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Current IV Drug Use","Are they currently using IV drugs (Y/N)","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Smoking Status","Status of smoking (Current/Former/Never)","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Date Quit Smoking","Date pt quit smoking","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"# Packs Years","# pack smokes/smoked each year (blank field)","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"# Packs/day","# packs per day pt smokes/smoked (blank field)","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Alcohol Usage (Yrs)","How many years did they use alcohol?","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Alcohol Amount","How many drinks/day? (0; 1-2; 3-4; 5 or more)","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA,NA
+"Social Histories",NA,NA,"Smoking Status/Tobacco Usage","Chewing tobacco; cigarettes; cigars; marijuana; never; no; pipe; unknown; yes","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Tobacco Year Quit","Year pt quit smoking","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"# of Children","# of biological children","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Carcinogen exposure","asbestos, agent orange, etc","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Other","Other risk or exposure such as drug abuse","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Occupation","Patient’s occupation.  If patient is retired and the occupation in which he worked is known, specify the occupation.  If occupation is not known and patient is retired, enter “Retired”.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Marital Status","Patient's current marital status.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Vietnam Veteran","Important info for tracking disproportionately affected men (agent orange exposure)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Social Histories",NA,NA,"Notes","Free text field for additional details","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Comorbidities",NA,NA,"Comorbidity","Type of comorbidity, prior condition, etc","Abstract",NA,NA,NA,"1",NA,"1","1",NA,NA,"1","1","1"
+"Comorbidities",NA,NA,"Treatment","Unique to disease group","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,"1",NA,NA
+"Comorbidities",NA,NA,"Status","Unique to disease group","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,"1",NA,NA
+"Comorbidities",NA,NA,"System","Unique to disease group","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Comorbidities",NA,NA,"Grade","Unique to disease group","Abstract",NA,NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,NA
+"Comorbidities",NA,NA,"Date","Date on which Comorbidity diagnosed","Abstract",NA,NA,NA,NA,NA,"1",NA,NA,NA,NA,"1",NA
+"Demographics",NA,NA,"MRN","Medical record number","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"First (Given)","Legal name","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Middle","Legal name","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Last (Surname)","Legal name","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Birth Date","Date of birth","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Race","What race patient associated","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Ethnicity","What ethnicity patient associated","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Gender","Male or Female","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Age","Current age","Autocalculated","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Death Date","Date of death","Abstract/Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Death Type","Select type of death, if known","Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Death Source","Source used to determine pt is deceased","Abstract/Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Address (line 1)","Current residence","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Address (line 2)","Current residence","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"City","Current city","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"State","Current state","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Postal Code","Current zip code","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Country","Current country","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Email","Active email address","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics",NA,NA,"Language","Preferred language","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics","Phone Numbers",NA,"Type","Type of #, cell/home/work","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Demographics","Phone Numbers",NA,"Number","Phone #","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Patient Protocols",NA,NA,"Protocol","Protocol #/Name","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Patient Protocols","Protocol Status",NA,"Date","Date of Protocol event","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Patient Protocols","Protocol Status",NA,"Status","Status of Protocol (Treatment Start, Off Study, etc)","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Patient Protocols","Protocol Status",NA,"Reason","Reason for Status, if relevant","Feed","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Brachytherapy",NA,NA,"# Seeds","# seeds placed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"# Needles","# needles used","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Physician","Name of the physician who performed the brachytherapy procedure","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Date","Date the procedure was performed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Time","Time of procedure","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Isotope","Isotope used for brachytherapy.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Prescribed Dose","Radiation dose for the bachytherapy implant.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Brachytherapy",NA,NA,"Notes","Free text field for additonal details","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Family Members",NA,NA,"# of","Actual number of affected relatives in the category, ie ""2"" uncles","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Family Members",NA,NA,"Side of family","Relation – The specific relation of the family member.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1","1"
+"Family Members",NA,NA,"Relation","The side of the family from which the relative is.","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1","1"
+"Family Members","Family Member Diagnosis",NA,"Diagnosis","Family member with history of Pancreatitis, Pancreatic Cancer, or Other Cancer?","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,"1","1",NA
+"Family Members","Family Member Diagnosis",NA,"Diagnosis Age","Family member's age when diagnosed with above disease","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,"1","1",NA
+"Family Members","Family Member Diagnosis",NA,"Note","If Other Cancer, enter type of cancer (breast, lung, etc)","Abstract",NA,NA,NA,"1",NA,NA,NA,NA,NA,"1","1",NA
+"Medications",NA,NA,"Start Date","Date Med started","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Stop Date","Date Med ended/discontinued","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Type","What category is the medication (ie Hormone Replacement)","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Medication","Name of Medication (enter only if ""Prolia"")","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Dose, Total Dose (with Units)","Dose or Normalized dose prescribed","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Route","How was it administered","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Medications",NA,NA,"Schedule","How was it prescribed","Abstract",NA,NA,"1",NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests",NA,NA,"Date","Date lab test performed","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Time (if applicable)","Time lab test peformed (can be important for Cortisol or other fasting labs)","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Accession #","Accession # assigned to specimen","Feed/Abstract",NA,NA,"1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Lab Test","Name of test","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Result","Result","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Units","Units","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests",NA,NA,"Normal Range","Normal range for that test, if provided","Feed/Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Lab Tests","Genetics",NA,"Specimen Type","Type of specimen tested","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Company Performing Test","Name of company which performed testing","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Gene","Gene tested","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Mutation","Type of mutation found","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Result","Result of testing","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Interpretation","Interpretation of testing (Deleterious, etc)","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Lab Tests","Genetics",NA,"Comments","Additional info can be entered here if needed","Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Diseases",NA,NA,"Disease","Diseases which the pt is diagnosed (all have GU; also put specific GU location if provided ie Prostate)","Feed/Abstract",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Physicians",NA,NA,"Physician","Physician(s) involved in patient’s treatment.  May include primary, treating, referring or consulting physicians.","Feed",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1",NA
+"Absent Event",NA,NA,"Table","General type of Treatment not given","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,NA
+"Absent Event",NA,NA,"Field","Specific type of Treatment not given","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,NA
+"Absent Event",NA,NA,"FieldValue","Name of Treatment not given","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,NA
+"Absent Event",NA,NA,"Reason","Why Treatment not given","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,NA
+"Absent Event",NA,NA,"Absent Date","Most recent known date that Treatment was not given","Abstract",NA,NA,"1","1","1","1",NA,NA,NA,NA,NA,NA
+"Actions",NA,NA,"Date","Date upon which record completely entered (all groups); Date of update or action taken on this patient's record ***update all records if >1 month from last Action entry; put ""Record Complete"" when deceased patient has been fully entered (Prostate ONLY)","Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
+"Actions",NA,NA,"Action Item","""Record Complete"" selected for deceased patients when primary cancer history data has been fully entered; Where data was abstracted from (Prostate only!)","Abstract","1","1","1","1","1","1",NA,"1","1","1","1","1"
